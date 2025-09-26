@@ -1,8 +1,6 @@
 import os
 
 from matplotlib.axes import Axes
-os.environ["KMP_DUPLICATE_LIB_OK"] = "TRUE"
-os.environ["PROJ_LIB"] = r"C:\Users\janne\anaconda3\Library\share\proj"
 
 import json
 import numpy as np
