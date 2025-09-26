@@ -1,6 +1,7 @@
 Usage
 
 Download the DEM file
+
 Download korkeusmalliL3342CDEF.tif from the National Land Survey of Finland File Service:
 
 https://asiointi.maanmittauslaitos.fi/karttapaikka/tiedostopalvelu/korkeusvyohykkeet?lang=fi
@@ -13,6 +14,7 @@ aineiston_kasittely/input_data/korkeusmalliL3342CDEF.tif
 
 
 Run the model script
+
 Execute the following command in the project root:
 
 python src/gem.py
