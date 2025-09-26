@@ -1,7 +1,9 @@
 Usage
 
 Download the DEM file
-Download korkeusmalliL3342CDEF.tif from the National Land Survey of Finland File Service
+Download korkeusmalliL3342CDEF.tif from the National Land Survey of Finland File Service:
+
+https://asiointi.maanmittauslaitos.fi/karttapaikka/tiedostopalvelu/korkeusvyohykkeet?lang=fi
 .
 
 Insert the file into the input folder
