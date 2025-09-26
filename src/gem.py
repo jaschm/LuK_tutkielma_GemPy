@@ -18,7 +18,7 @@ from main import main
 from topography import set_topography
 from gempy.core.data import StackRelationType
 
-with open(r"D:\Luk\LukFinal\aineiston_kasittely\config_files\config.json", "r", encoding="utf-8") as f:
+with open("aineiston_kasittely/config_files/config.json", "r", encoding="utf-8") as f:
     config = json.load(f)
 
 def convert_obj_to_dxf(obj_path, dxf_path):
@@ -146,7 +146,7 @@ def gempy_main():
                     set_ok = True
                     break
             if not set_ok:
-                print(f"⚠️ Could not set ONLAP for {target_name}/{element_name}")
+                print(f"Could not set ONLAP for {target_name}/{element_name}")
 
     set_base = False
     for name in ("Kallioperä", "basement"):
